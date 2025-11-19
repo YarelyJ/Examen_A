@@ -1,4 +1,5 @@
-import NotebookViewer from '@/components/notebook-viewer'
+// Fíjate en el cambio al final de esta línea: '.../NotebookViewer'
+import NotebookViewer from '@/components/NotebookViewer'
 
 export default function Home() {
   return (

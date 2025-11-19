@@ -1,5 +1,7 @@
-// Fíjate en el cambio al final de esta línea: '.../NotebookViewer'
-import NotebookViewer from '@/components/NotebookViewer'
+// CAMBIO IMPORTANTE:
+// 1. Usamos '../' en lugar de '@/'
+// 2. Usamos 'notebook-viewer' en minúsculas (tal como sale en tu foto)
+import NotebookViewer from '../components/notebook-viewer'
 
 export default function Home() {
   return (

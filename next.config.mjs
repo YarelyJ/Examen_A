@@ -12,13 +12,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': resolve(__dirname, './'),
-    }
-    return config
-  },
+  turbopack: {},
 }
 
 export default nextConfig
+
